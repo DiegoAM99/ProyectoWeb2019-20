@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Big Data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #video{
+        margin-top: 10px;
+        margin-right: 30px;
+        float: left;
+        width: 940px; 
+        height:700px;
+        volume: 20;
+
+            }
+            .p{
+                text-align: center;
+                font-size: 32px;
+            }
+            #p{
+                font-size: 40px;
+                
+            }
+            h1{
+                text-align: center;
+            }
+            .image{
+                
+            }
+            #cajacookies {
+  box-shadow: 0px 0px 5px 5px #808080;    
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+#cajacookies button {
+  color: black;
+}
+            
+      </style>
+        <h1>¿Qué es el Big Data?</h1>
+    </head>
+    <body>
+        <p class="p"><u>Os mostramos un vídeo donde se explica que es el Big Data...</u></p>
+        <video id="video" preload="auto" autoplay="true" muted="true" sound="true" loop="true"><source src="videos/What is Big Data (2019).mp4" type="video/mp4"></video>
+        <div id="cajacookies">
+<p><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar este mensaje</button>
+Este sitio web usa cookies, si permanece aquí acepta su uso.
+Puede leer más sobre el uso de cookies en nuestra <a href="politica.html">política de privacidad</a>.
+</p>
+</div>
+    </body>
+</html>
+
+
+<script>
+/* ésto comprueba la localStorage si ya tiene la variable guardada */
+function compruebaAceptaCookies() {
+  if(localStorage.aceptaCookies == 'true'){
+    cajacookies.style.display = 'none';
+  }
+}
+
+/* aquí guardamos la variable de que se ha
+aceptado el uso de cookies así no mostraremos
+el mensaje de nuevo */
+function aceptarCookies() {
+  localStorage.aceptaCookies = 'true';
+  cajacookies.style.display = 'none';
+}
+
+/* ésto se ejecuta cuando la web está cargada */
+$(document).ready(function () {
+  compruebaAceptaCookies();
+});
+</script>
