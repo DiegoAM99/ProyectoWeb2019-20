@@ -16,13 +16,25 @@ and open the template in the editor.
         volume: 20;
 
             }
+            .img{
+                width: 840px;
+                height: 700px;
+            }
             .p{
                 text-align: center;
-                font-size: 32px;
+                font-size: 29px;
+                color: white;
             }
             #p{
-                font-size: 40px;
-                
+                text-align: left;
+                font-size: 30px;
+                color: white;
+            }
+            a{
+                font-size: 30px; 
+            }
+            .div{
+                border: 3px solid #000;
             }
             h1{
                 text-align: center;
@@ -46,3 +58,43 @@ and open the template in the editor.
 #cajacookies button {
   color: black;
 }
+body{
+    background-color: #006983;
+}
+#menuh {
+         font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
+         margin-top: 20px;
+ }
+ 
+ #menuh ul, li {
+         list-style-type: none;
+ }
+ 
+ #menuh ul {
+         margin: 0;
+         padding: 0;
+ }
+ 
+ #menuh li {
+         float: left;
+ }
+ 
+ #menuh a {
+         text-decoration: none;
+         color: #3366CC;
+         background: #F0F7FC;
+         display: block;
+         padding: 3px 10px;
+         text-align: center;
+         border: 1px solid #ACCFE8;
+         border-width: 1px 1px 1px 0;
+ }
+ 
+ 
+ #menuh a#primero {
+         border-left: 1px solid #ACCFE8;
+ }
+ 
+ #menuh a:hover {
+         background: #DBEBF6;
+ }
