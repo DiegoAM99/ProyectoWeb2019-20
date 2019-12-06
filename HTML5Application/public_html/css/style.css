@@ -17,8 +17,10 @@ and open the template in the editor.
 
             }
             .img{
-                width: 840px;
-                height: 700px;
+                width: 300px;
+                height: 300px;
+                padding-right: 20px;
+		padding-bottom: 20px;
             }
             .p{
                 text-align: center;
@@ -39,8 +41,8 @@ and open the template in the editor.
             h1{
                 text-align: center;
             }
-            .image{
-                
+            .limpiar{
+                clear: both;
             }
             #cajacookies {
   box-shadow: 0px 0px 5px 5px #808080;    
@@ -98,3 +100,29 @@ body{
  #menuh a:hover {
          background: #DBEBF6;
  }
+#div{
+	margin:auto;
+	}
+	#publicidadizq{
+		width: 15%;
+		float:left;
+		overflow:hidden;
+		display:block;
+		}
+	#publicidadderech{
+		width: 15%;
+		float:left;
+		overflow:hidden;
+		display:block;
+		}
+#divprincipal{
+		width: 70%;
+		float:left;
+		overflow:hidden;
+		display:block;
+	}
+	.imag{
+		width: 100%;
+		display:block;
+		height: 900px;
+		}
