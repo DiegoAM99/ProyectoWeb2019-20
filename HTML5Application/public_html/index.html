@@ -5,12 +5,75 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icono.ico">
     <head>
-        <title>TODO supply a title</title>
+        <title>Hardware</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <h1>¿Qué es el Hardware?</h1>
+        <div><div id="menuh">
+         <ul>
+             <li><a href="index.php" id="primero">Inicio</a></li>
+             <li><a href="index.php #abajo">Comentarios/Sugerencias</a></li>
+             <li><a onclick="pulsar()">Contacto</a></li>
+             <li><a href="https://www.borntoplay.es/">Novedades</a></li>
+         </ul>
+        </div></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Son las partes físicas, tangibles, de un sistema informático; sus componentes eléctricos, electrónicos, electromecánicos y mecánicos.
+            Los cables, así como los gabinetes o cajas, los periféricos de todo tipo, 
+            y cualquier otro elemento físico involucrado, componen el hardware o soporte físico; 
+            contrariamente, el soporte lógico e intangible es el llamado software.
+            El término es propio del idioma inglés, y su traducción al español no tiene un significado acorde, 
+            por tal motivo se lo ha adoptado tal cual es y suena. 
+            La Real Academia Española lo define como «Conjunto de los componentes que integran la parte material de una computadora».
+            El término, aunque sea lo más común, no solamente se aplica a las computadoras, 
+            también es a menudo utilizado en otras áreas de la vida diaria y la tecnología. 
+            Por ejemplo, hardware también se refiere a herramientas y máquinas, y en electrónica hardware se refiere a todos los componentes electrónicos, 
+            eléctricos, electromecánicos, mecánicos, cableados y tarjetas de circuitos impresos.</p>
+        <div id="cajacookies">
+<p><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar éste mensaje</button>
+Éste sitio web usa cookies, si permanece aquí acepta su uso.
+Puede leer más sobre el uso de cookies en nuestra <a href="politica.html">política de privacidad</a>.
+</p>
+</div> 
+        <div class="powr-comments" id="e963cdce_1575541599"></div><script src="https://www.powr.io/powr.js?platform=embed"></script>
     </body>
 </html>
+<script>
+/* ésto comprueba la localStorage si ya tiene la variable guardada */
+function compruebaAceptaCookies() {
+  if(localStorage.aceptaCookies == 'true'){
+    cajacookies.style.display = 'none';
+  }
+}
+
+/* aquí guardamos la variable de que se ha
+aceptado el uso de cookies así no mostraremos
+el mensaje de nuevo */
+function aceptarCookies() {
+  localStorage.aceptaCookies = 'true';
+  cajacookies.style.display = 'none';
+}
+
+/* ésto se ejecuta cuando la web está cargada */
+$(document).ready(function () {
+  compruebaAceptaCookies();
+});
+</script>
+<SCRIPT>
+function pulsar() {
+alert("Si hay algún problema no olvide contactar conmigo enviandome un correo a: jorgeesbuenagente@yopmail.com");
+}
+</SCRIPT>
+<SCRIPT>
+function pulsar2() {
+alert("Has cerrado la sesión");
+}
+</SCRIPT>

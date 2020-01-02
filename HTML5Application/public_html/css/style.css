@@ -4,8 +4,8 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 04-dic-2019, 14:08:03
-    Author     : Usuario
+    Created on : 02-Enero-2020, 11:49:40
+    Author     : Diego Álvarez Medrano
 */
             #video{
         margin-top: 10px;
@@ -62,7 +62,7 @@ and open the template in the editor.
   color: black;
 }
 body{
-    background-color: #006983;
+    background-color:red;
 }
 #menuh {
          font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
