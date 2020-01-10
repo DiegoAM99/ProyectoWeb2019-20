@@ -78,3 +78,6 @@ and open the template in the editor.
 body{
     background-color: yellow;
 }
+h1{
+                text-align: center;
+            }
