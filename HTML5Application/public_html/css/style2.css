@@ -122,3 +122,12 @@ h1{
                 font-size: 30px;
                 color: #000;
             }
+            .imag{
+		width: 100%;
+		display:block;
+		height: 800px;
+		}
+                .img{
+                    display:block;
+                    margin:auto;
+                }
