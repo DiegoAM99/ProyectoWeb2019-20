@@ -11,6 +11,9 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<link type="text/css" rel="stylesheet" href="css/flexslider.css"/>
     </head>
     <body>
         <h1>¿Qué es el Hardware?</h1>
@@ -38,7 +41,25 @@ and open the template in the editor.
             también es a menudo utilizado en otras áreas de la vida diaria y la tecnología. 
             Por ejemplo, hardware también se refiere a herramientas y máquinas, y en electrónica hardware se refiere a todos los componentes electrónicos, 
             eléctricos, electromecánicos, mecánicos, cableados y tarjetas de circuitos impresos.</p>
-        
+        <div class="flexslider" class="limpiar">
+    <ul class="slides">
+    <li>
+        <img src="img/Slide1.jpg"/>
+    </li>
+    <li>
+        <img src="img/Slide2.jpg"/>
+    </li>
+    <li>
+        <img src="img/Slide3.jpg"/>
+    </li>
+    <li>
+        <img src="img/Slide4.jpg"/>
+    </li>
+    <li>
+        <img src="img/Slide5.jpg"/>
+    </li>
+  </ul>
+</div>
         <video id="video" preload="auto" autoplay="true" muted="true" sound="true" loop="true"><source src="videos/Que_es_el_hardware_Componentes_internos.mp4" type="video/mp4"></video>
         <div id="cajacookies">
 <p><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar éste mensaje</button>
@@ -50,6 +71,13 @@ Puede leer más sobre el uso de cookies en nuestra <a href="paolitica.html">pol�
         <button><a href="index2.html">Siguiente Página</a></button>
     </body>
 </html>
+<script type="text/javascript">
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
 <script>
 /* ésto comprueba la localStorage si ya tiene la variable guardada */
 function compruebaAceptaCookies() {

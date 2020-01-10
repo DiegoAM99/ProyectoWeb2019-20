@@ -96,3 +96,29 @@ h1{
         volume: 20;
 
             }
+           #div{
+	margin:auto;
+	}
+	#publicidadizq{
+		width: 15%;
+		float:left;
+		overflow:hidden;
+		display:block;
+		}
+	#publicidadderech{
+		width: 15%;
+		float:left;
+		overflow:hidden;
+		display:block;
+		}
+#divprincipal{
+		width: 70%;
+		float:left;
+		overflow:hidden;
+		display:block;
+	}
+        #p{
+                text-align: left;
+                font-size: 30px;
+                color: #000;
+            }
